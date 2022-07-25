@@ -1,0 +1,18 @@
+div{
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: lightgray 1px 1px 7px;;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    &:active {
+        transform: translate(1px,1px);
+        box-shadow: lightgray 0 0 5px;
+    }
+}
